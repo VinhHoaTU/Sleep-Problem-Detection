@@ -1,0 +1,37 @@
+# Apprentissage Statistique
+
+## Payen Jérôme Robert Valentin Tu Vinh hoa
+
+#### Problématique :
+Ce jeu de données contient des informations complètes sur la qualité de l'air et son impact sur la santé publique pour 5 811 enregistrements. Il inclut des variables telles que l'indice de qualité de l'air (IQA), les concentrations de divers polluants, les conditions météorologiques et des indicateurs d'impact sur la santé. La variable cible est la classe d'impact sur la santé, qui catégorise l'impact sanitaire en fonction de la qualité de l'air et d'autres facteurs associés.
+
+#### Données :
+
+**Identifiant de l'enregistrement
+RecordID : Identifiant unique attribué à chaque enregistrement (de 1 à 2 392).
+
+**Indicateurs de qualité de l'air
+AQI : Indice de qualité de l'air, mesurant le niveau actuel ou prévu de pollution de l'air.
+PM10 : Concentration de particules en suspension d’un diamètre inférieur à 10 micromètres (μg/m³).
+PM2_5 : Concentration de particules en suspension d’un diamètre inférieur à 2,5 micromètres (μg/m³).
+NO2 : Concentration de dioxyde d'azote (ppb).
+SO2 : Concentration de dioxyde de soufre (ppb).
+O3 : Concentration d'ozone (ppb).
+
+**Conditions météorologiques
+Temperature : Température en degrés Celsius (°C).
+Humidity : Pourcentage d'humidité relative (%).
+WindSpeed : Vitesse du vent en mètres par seconde (m/s).
+
+**Indicateurs d'impact sur la santé
+RespiratoryCases : Nombre de cas signalés de maladies respiratoires.
+CardiovascularCases : Nombre de cas signalés de maladies cardiovasculaires.
+HospitalAdmissions : Nombre d'admissions à l'hôpital signalées.
+Variable cible : Classe d'impact sur la santé
+HealthImpactScore : Score indiquant l’impact global sur la santé basé sur la qualité de l'air et d'autres facteurs associés, variant de 0 à 100.
+HealthImpactClass : Classification de l'impact sur la santé en fonction du score d'impact :
+	0 : Très élevé (HealthImpactScore ≥ 80)
+	1 : Élevé (60 ≤ HealthImpactScore < 80)
+	2 : Modéré (40 ≤ HealthImpactScore < 60)
+	3 : Faible (20 ≤ HealthImpactScore < 40)
+	4 : Très faible (HealthImpactScore < 20)
