@@ -1,4 +1,4 @@
-	Gender (Male/Female): Le genre de la personne. 
+Gender (Male/Female): Le genre de la personne. 
 Age : L'âge de la personne en années. 
 Occupation : La profession ou le métier de la personne. 
 SleepDuration (heures) : Le nombre d'heures que la personne dort par jour. 
